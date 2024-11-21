@@ -1,0 +1,429 @@
+2024-11-21T11:49:39.500+05:30  INFO 2728 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Starting H2databaseApplication using Java 17.0.12 with PID 2728 (D:\spring\H2database\target\classes started by anush in D:\spring\H2database)
+2024-11-21T11:49:39.504+05:30  INFO 2728 --- [H2database] [main] c.e.H2database.H2databaseApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T11:49:40.610+05:30  INFO 2728 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T11:49:40.703+05:30  INFO 2728 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interface.
+2024-11-21T11:49:41.456+05:30  INFO 2728 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-21T11:49:41.470+05:30  INFO 2728 --- [H2database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T11:49:41.471+05:30  INFO 2728 --- [H2database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T11:49:41.538+05:30  INFO 2728 --- [H2database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T11:49:41.539+05:30  INFO 2728 --- [H2database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1949 ms
+2024-11-21T11:49:41.576+05:30  INFO 2728 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T11:49:41.770+05:30  INFO 2728 --- [H2database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T11:49:41.771+05:30  INFO 2728 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T11:49:41.784+05:30  INFO 2728 --- [H2database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T11:49:41.988+05:30  INFO 2728 --- [H2database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T11:49:42.075+05:30  INFO 2728 --- [H2database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T11:49:42.124+05:30  INFO 2728 --- [H2database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T11:49:42.463+05:30  INFO 2728 --- [H2database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T11:49:43.371+05:30  INFO 2728 --- [H2database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T11:49:43.403+05:30  INFO 2728 --- [H2database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T11:49:43.815+05:30  WARN 2728 --- [H2database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T11:49:44.241+05:30  INFO 2728 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-21T11:49:44.251+05:30  INFO 2728 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Started H2databaseApplication in 5.224 seconds (process running for 6.616)
+2024-11-21T11:58:33.709+05:30  INFO 2728 --- [H2database] [http-nio-8081-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T11:58:33.710+05:30  INFO 2728 --- [H2database] [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T11:58:33.722+05:30  INFO 2728 --- [H2database] [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2024-11-21T11:58:33.825+05:30  WARN 2728 --- [H2database] [http-nio-8081-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T11:58:36.776+05:30  WARN 2728 --- [H2database] [http-nio-8081-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T11:58:38.868+05:30  WARN 2728 --- [H2database] [http-nio-8081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T12:00:00.566+05:30  WARN 2728 --- [H2database] [http-nio-8081-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "add"]
+2024-11-21T12:06:26.231+05:30  INFO 2728 --- [H2database] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T12:06:26.257+05:30  INFO 2728 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T12:06:26.261+05:30  INFO 2728 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T12:06:31.057+05:30  INFO 11228 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Starting H2databaseApplication using Java 17.0.12 with PID 11228 (D:\spring\H2database\target\classes started by anush in D:\spring\H2database)
+2024-11-21T12:06:31.060+05:30  INFO 11228 --- [H2database] [main] c.e.H2database.H2databaseApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T12:06:32.025+05:30  INFO 11228 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T12:06:32.096+05:30  INFO 11228 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2024-11-21T12:06:32.886+05:30  INFO 11228 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-21T12:06:32.902+05:30  INFO 11228 --- [H2database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T12:06:32.902+05:30  INFO 11228 --- [H2database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T12:06:32.985+05:30  INFO 11228 --- [H2database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T12:06:32.985+05:30  INFO 11228 --- [H2database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1855 ms
+2024-11-21T12:06:33.038+05:30  INFO 11228 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T12:06:33.309+05:30  INFO 11228 --- [H2database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T12:06:33.311+05:30  INFO 11228 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T12:06:33.326+05:30  INFO 11228 --- [H2database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T12:06:33.498+05:30  INFO 11228 --- [H2database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T12:06:33.649+05:30  INFO 11228 --- [H2database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T12:06:33.700+05:30  INFO 11228 --- [H2database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T12:06:34.052+05:30  INFO 11228 --- [H2database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T12:06:34.851+05:30  INFO 11228 --- [H2database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T12:06:34.899+05:30  INFO 11228 --- [H2database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T12:06:35.204+05:30  WARN 11228 --- [H2database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T12:06:35.781+05:30  INFO 11228 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-21T12:06:35.793+05:30  INFO 11228 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Started H2databaseApplication in 5.228 seconds (process running for 5.681)
+2024-11-21T12:06:35.798+05:30  INFO 11228 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Info level
+2024-11-21T12:06:35.798+05:30 ERROR 11228 --- [H2database] [main] c.e.H2database.H2databaseApplication     : error level
+2024-11-21T12:06:35.798+05:30  WARN 11228 --- [H2database] [main] c.e.H2database.H2databaseApplication     : warn level
+2024-11-21T12:51:14.732+05:30  INFO 11228 --- [H2database] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T12:51:14.819+05:30  INFO 11228 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T12:51:14.840+05:30  INFO 11228 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T12:51:20.000+05:30  INFO 7752 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Starting H2databaseApplication using Java 17.0.12 with PID 7752 (D:\spring\H2database\target\classes started by anush in D:\spring\H2database)
+2024-11-21T12:51:20.003+05:30  INFO 7752 --- [H2database] [main] c.e.H2database.H2databaseApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T12:51:21.128+05:30  INFO 7752 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T12:51:21.209+05:30  INFO 7752 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interface.
+2024-11-21T12:51:22.191+05:30  INFO 7752 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-21T12:51:22.207+05:30  INFO 7752 --- [H2database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T12:51:22.208+05:30  INFO 7752 --- [H2database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T12:51:22.287+05:30  INFO 7752 --- [H2database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T12:51:22.288+05:30  INFO 7752 --- [H2database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2213 ms
+2024-11-21T12:51:22.332+05:30  INFO 7752 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T12:51:22.622+05:30  INFO 7752 --- [H2database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T12:51:22.625+05:30  INFO 7752 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T12:51:22.645+05:30  INFO 7752 --- [H2database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T12:51:22.825+05:30  INFO 7752 --- [H2database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T12:51:22.917+05:30  INFO 7752 --- [H2database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T12:51:22.965+05:30  INFO 7752 --- [H2database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T12:51:23.285+05:30  INFO 7752 --- [H2database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T12:51:24.152+05:30  INFO 7752 --- [H2database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T12:51:24.187+05:30  INFO 7752 --- [H2database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T12:51:24.503+05:30  WARN 7752 --- [H2database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T12:51:24.899+05:30  INFO 7752 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-21T12:51:24.913+05:30  INFO 7752 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Started H2databaseApplication in 5.424 seconds (process running for 5.925)
+2024-11-21T12:51:24.917+05:30  INFO 7752 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Info level
+2024-11-21T12:51:24.917+05:30 ERROR 7752 --- [H2database] [main] c.e.H2database.H2databaseApplication     : error level
+2024-11-21T12:51:24.917+05:30  WARN 7752 --- [H2database] [main] c.e.H2database.H2databaseApplication     : warn level
+2024-11-21T12:57:41.059+05:30  INFO 7752 --- [H2database] [http-nio-8081-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T12:57:41.060+05:30  INFO 7752 --- [H2database] [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T12:57:41.062+05:30  INFO 7752 --- [H2database] [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-21T12:57:41.132+05:30  WARN 7752 --- [H2database] [http-nio-8081-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T12:57:43.009+05:30  WARN 7752 --- [H2database] [http-nio-8081-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T12:57:44.560+05:30  WARN 7752 --- [H2database] [http-nio-8081-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T13:03:04.298+05:30  WARN 7752 --- [H2database] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m41s460ms715µs800ns).
+2024-11-21T13:06:35.246+05:30  INFO 7752 --- [H2database] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T13:06:35.273+05:30  INFO 7752 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T13:06:35.277+05:30  INFO 7752 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T13:06:40.372+05:30  INFO 9316 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Starting H2databaseApplication using Java 17.0.12 with PID 9316 (D:\spring\H2database\target\classes started by anush in D:\spring\H2database)
+2024-11-21T13:06:40.375+05:30  INFO 9316 --- [H2database] [main] c.e.H2database.H2databaseApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T13:06:41.347+05:30  INFO 9316 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T13:06:41.436+05:30  INFO 9316 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+2024-11-21T13:06:42.353+05:30  INFO 9316 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-21T13:06:42.367+05:30  INFO 9316 --- [H2database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T13:06:42.368+05:30  INFO 9316 --- [H2database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T13:06:42.437+05:30  INFO 9316 --- [H2database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T13:06:42.438+05:30  INFO 9316 --- [H2database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1993 ms
+2024-11-21T13:06:42.472+05:30  INFO 9316 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T13:06:42.683+05:30  INFO 9316 --- [H2database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T13:06:42.684+05:30  INFO 9316 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T13:06:42.694+05:30  INFO 9316 --- [H2database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T13:06:42.854+05:30  INFO 9316 --- [H2database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T13:06:42.968+05:30  INFO 9316 --- [H2database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T13:06:43.016+05:30  INFO 9316 --- [H2database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T13:06:43.397+05:30  INFO 9316 --- [H2database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T13:06:44.218+05:30  INFO 9316 --- [H2database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T13:06:44.246+05:30  INFO 9316 --- [H2database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T13:06:44.538+05:30  WARN 9316 --- [H2database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T13:06:44.945+05:30  INFO 9316 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-21T13:06:44.957+05:30  INFO 9316 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Started H2databaseApplication in 5.1 seconds (process running for 5.553)
+2024-11-21T13:06:44.960+05:30  INFO 9316 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Info level
+2024-11-21T13:06:44.961+05:30 ERROR 9316 --- [H2database] [main] c.e.H2database.H2databaseApplication     : error level
+2024-11-21T13:06:44.961+05:30  WARN 9316 --- [H2database] [main] c.e.H2database.H2databaseApplication     : warn level
+2024-11-21T13:07:02.648+05:30  INFO 9316 --- [H2database] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T13:07:02.648+05:30  INFO 9316 --- [H2database] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T13:07:02.650+05:30  INFO 9316 --- [H2database] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-21T13:07:58.284+05:30  INFO 9316 --- [H2database] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T13:07:58.288+05:30  INFO 9316 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T13:07:58.294+05:30  INFO 9316 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T13:08:01.921+05:30  INFO 8480 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Starting H2databaseApplication using Java 17.0.12 with PID 8480 (D:\spring\H2database\target\classes started by anush in D:\spring\H2database)
+2024-11-21T13:08:01.924+05:30  INFO 8480 --- [H2database] [main] c.e.H2database.H2databaseApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T13:08:02.872+05:30  INFO 8480 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T13:08:02.944+05:30  INFO 8480 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2024-11-21T13:08:03.780+05:30  INFO 8480 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-21T13:08:03.799+05:30  INFO 8480 --- [H2database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T13:08:03.799+05:30  INFO 8480 --- [H2database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T13:08:03.882+05:30  INFO 8480 --- [H2database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T13:08:03.882+05:30  INFO 8480 --- [H2database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1895 ms
+2024-11-21T13:08:03.921+05:30  INFO 8480 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T13:08:04.178+05:30  INFO 8480 --- [H2database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T13:08:04.180+05:30  INFO 8480 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T13:08:04.195+05:30  INFO 8480 --- [H2database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T13:08:04.373+05:30  INFO 8480 --- [H2database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T13:08:04.476+05:30  INFO 8480 --- [H2database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T13:08:04.528+05:30  INFO 8480 --- [H2database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T13:08:04.878+05:30  INFO 8480 --- [H2database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T13:08:05.814+05:30  INFO 8480 --- [H2database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T13:08:05.841+05:30  INFO 8480 --- [H2database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T13:08:06.132+05:30  WARN 8480 --- [H2database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T13:08:06.537+05:30  INFO 8480 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-21T13:08:06.548+05:30  INFO 8480 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Started H2databaseApplication in 5.122 seconds (process running for 5.52)
+2024-11-21T13:08:06.552+05:30  INFO 8480 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Info level
+2024-11-21T13:08:06.552+05:30 ERROR 8480 --- [H2database] [main] c.e.H2database.H2databaseApplication     : error level
+2024-11-21T13:08:06.552+05:30  WARN 8480 --- [H2database] [main] c.e.H2database.H2databaseApplication     : warn level
+2024-11-21T13:08:14.753+05:30  INFO 8480 --- [H2database] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T13:08:14.754+05:30  INFO 8480 --- [H2database] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T13:08:14.756+05:30  INFO 8480 --- [H2database] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-21T13:08:22.268+05:30  WARN 8480 --- [H2database] [http-nio-8081-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T13:08:24.214+05:30  WARN 8480 --- [H2database] [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T13:08:25.931+05:30  WARN 8480 --- [H2database] [http-nio-8081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T13:14:33.246+05:30  INFO 8480 --- [H2database] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T13:14:33.273+05:30  INFO 8480 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T13:14:33.278+05:30  INFO 8480 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T13:14:37.385+05:30  INFO 3560 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Starting H2databaseApplication using Java 17.0.12 with PID 3560 (D:\spring\H2database\target\classes started by anush in D:\spring\H2database)
+2024-11-21T13:14:37.388+05:30  INFO 3560 --- [H2database] [main] c.e.H2database.H2databaseApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T13:14:38.350+05:30  INFO 3560 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T13:14:38.431+05:30  INFO 3560 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
+2024-11-21T13:14:39.286+05:30  INFO 3560 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-21T13:14:39.303+05:30  INFO 3560 --- [H2database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T13:14:39.304+05:30  INFO 3560 --- [H2database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T13:14:39.381+05:30  INFO 3560 --- [H2database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T13:14:39.382+05:30  INFO 3560 --- [H2database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1923 ms
+2024-11-21T13:14:39.426+05:30  INFO 3560 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T13:14:39.705+05:30  INFO 3560 --- [H2database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T13:14:39.707+05:30  INFO 3560 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T13:14:39.721+05:30  INFO 3560 --- [H2database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T13:14:39.908+05:30  INFO 3560 --- [H2database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T13:14:40.001+05:30  INFO 3560 --- [H2database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T13:14:40.050+05:30  INFO 3560 --- [H2database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T13:14:40.393+05:30  INFO 3560 --- [H2database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T13:14:41.286+05:30  INFO 3560 --- [H2database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T13:14:41.325+05:30  INFO 3560 --- [H2database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T13:14:41.640+05:30  WARN 3560 --- [H2database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T13:14:42.021+05:30  INFO 3560 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-21T13:14:42.032+05:30  INFO 3560 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Started H2databaseApplication in 5.141 seconds (process running for 5.596)
+2024-11-21T13:14:42.036+05:30  INFO 3560 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Info level
+2024-11-21T13:14:42.036+05:30 ERROR 3560 --- [H2database] [main] c.e.H2database.H2databaseApplication     : error level
+2024-11-21T13:14:42.036+05:30  WARN 3560 --- [H2database] [main] c.e.H2database.H2databaseApplication     : warn level
+2024-11-21T13:14:51.634+05:30  INFO 3560 --- [H2database] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T13:14:51.634+05:30  INFO 3560 --- [H2database] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T13:14:51.634+05:30  INFO 3560 --- [H2database] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-11-21T13:14:57.549+05:30  WARN 3560 --- [H2database] [http-nio-8081-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T13:14:59.401+05:30  WARN 3560 --- [H2database] [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T13:15:02.125+05:30  WARN 3560 --- [H2database] [http-nio-8081-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T13:51:31.769+05:30  WARN 3560 --- [H2database] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m20s179ms105µs700ns).
+2024-11-21T14:08:22.577+05:30  INFO 3560 --- [H2database] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T14:08:22.650+05:30  INFO 3560 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T14:08:22.669+05:30  INFO 3560 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T14:08:31.492+05:30  INFO 26784 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Starting H2databaseApplication using Java 17.0.12 with PID 26784 (D:\spring\H2database\target\classes started by anush in D:\spring\H2database)
+2024-11-21T14:08:31.498+05:30  INFO 26784 --- [H2database] [main] c.e.H2database.H2databaseApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T14:08:32.500+05:30  INFO 26784 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T14:08:32.581+05:30  INFO 26784 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interface.
+2024-11-21T14:08:33.893+05:30  INFO 26784 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-21T14:08:33.910+05:30  INFO 26784 --- [H2database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T14:08:33.910+05:30  INFO 26784 --- [H2database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T14:08:33.985+05:30  INFO 26784 --- [H2database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T14:08:33.986+05:30  INFO 26784 --- [H2database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2418 ms
+2024-11-21T14:08:34.023+05:30  INFO 26784 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T14:08:34.270+05:30  INFO 26784 --- [H2database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T14:08:34.272+05:30  INFO 26784 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T14:08:34.285+05:30  INFO 26784 --- [H2database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T14:08:34.453+05:30  INFO 26784 --- [H2database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T14:08:34.543+05:30  INFO 26784 --- [H2database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T14:08:34.595+05:30  INFO 26784 --- [H2database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T14:08:34.998+05:30  INFO 26784 --- [H2database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T14:08:35.824+05:30  INFO 26784 --- [H2database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T14:08:35.857+05:30  INFO 26784 --- [H2database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T14:08:36.192+05:30  WARN 26784 --- [H2database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T14:08:36.652+05:30  INFO 26784 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-21T14:08:36.665+05:30  INFO 26784 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Started H2databaseApplication in 5.737 seconds (process running for 6.202)
+2024-11-21T14:08:36.670+05:30  INFO 26784 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Info level
+2024-11-21T14:08:36.670+05:30 ERROR 26784 --- [H2database] [main] c.e.H2database.H2databaseApplication     : error level
+2024-11-21T14:08:36.670+05:30  WARN 26784 --- [H2database] [main] c.e.H2database.H2databaseApplication     : warn level
+2024-11-21T14:09:46.415+05:30  INFO 26784 --- [H2database] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T14:09:46.416+05:30  INFO 26784 --- [H2database] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T14:09:46.417+05:30  INFO 26784 --- [H2database] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-21T14:10:04.504+05:30  INFO 26784 --- [H2database] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T14:10:04.507+05:30  INFO 26784 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T14:10:04.509+05:30  INFO 26784 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T14:52:32.062+05:30  INFO 19264 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Starting H2databaseApplication using Java 17.0.12 with PID 19264 (D:\spring\H2database\target\classes started by anush in D:\spring\H2database)
+2024-11-21T14:52:32.066+05:30  INFO 19264 --- [H2database] [main] c.e.H2database.H2databaseApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T14:52:33.035+05:30  INFO 19264 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T14:52:33.111+05:30  INFO 19264 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2024-11-21T14:52:33.979+05:30  INFO 19264 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-21T14:52:33.995+05:30  INFO 19264 --- [H2database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T14:52:33.995+05:30  INFO 19264 --- [H2database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T14:52:34.075+05:30  INFO 19264 --- [H2database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T14:52:34.075+05:30  INFO 19264 --- [H2database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1939 ms
+2024-11-21T14:52:34.117+05:30  INFO 19264 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T14:52:34.399+05:30  INFO 19264 --- [H2database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T14:52:34.401+05:30  INFO 19264 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T14:52:34.417+05:30  INFO 19264 --- [H2database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T14:52:34.586+05:30  INFO 19264 --- [H2database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T14:52:34.677+05:30  INFO 19264 --- [H2database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T14:52:34.727+05:30  INFO 19264 --- [H2database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T14:52:35.107+05:30  INFO 19264 --- [H2database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T14:52:35.906+05:30  INFO 19264 --- [H2database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T14:52:35.942+05:30  INFO 19264 --- [H2database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T14:52:36.239+05:30  WARN 19264 --- [H2database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T14:52:36.672+05:30  INFO 19264 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-21T14:52:36.683+05:30  INFO 19264 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Started H2databaseApplication in 5.128 seconds (process running for 5.6)
+2024-11-21T14:52:36.687+05:30  INFO 19264 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Info level
+2024-11-21T14:52:36.688+05:30 ERROR 19264 --- [H2database] [main] c.e.H2database.H2databaseApplication     : error level
+2024-11-21T14:52:36.688+05:30  WARN 19264 --- [H2database] [main] c.e.H2database.H2databaseApplication     : warn level
+2024-11-21T14:53:58.530+05:30  INFO 19264 --- [H2database] [http-nio-8081-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T14:53:58.532+05:30  INFO 19264 --- [H2database] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T14:53:58.544+05:30  INFO 19264 --- [H2database] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2024-11-21T14:53:58.623+05:30  WARN 19264 --- [H2database] [http-nio-8081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T14:54:00.535+05:30  WARN 19264 --- [H2database] [http-nio-8081-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T14:54:02.245+05:30  WARN 19264 --- [H2database] [http-nio-8081-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T14:55:33.333+05:30  INFO 19264 --- [H2database] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T14:55:33.337+05:30  INFO 19264 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T14:55:33.339+05:30  INFO 19264 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T14:55:37.454+05:30  INFO 14568 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Starting H2databaseApplication using Java 17.0.12 with PID 14568 (D:\spring\H2database\target\classes started by anush in D:\spring\H2database)
+2024-11-21T14:55:37.458+05:30  INFO 14568 --- [H2database] [main] c.e.H2database.H2databaseApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T14:55:38.383+05:30  INFO 14568 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T14:55:38.450+05:30  INFO 14568 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2024-11-21T14:55:39.234+05:30  INFO 14568 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-21T14:55:39.250+05:30  INFO 14568 --- [H2database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T14:55:39.250+05:30  INFO 14568 --- [H2database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T14:55:39.350+05:30  INFO 14568 --- [H2database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T14:55:39.351+05:30  INFO 14568 --- [H2database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1831 ms
+2024-11-21T14:55:39.404+05:30  INFO 14568 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T14:55:39.692+05:30  INFO 14568 --- [H2database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T14:55:39.694+05:30  INFO 14568 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T14:55:39.705+05:30  INFO 14568 --- [H2database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T14:55:39.871+05:30  INFO 14568 --- [H2database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T14:55:39.964+05:30  INFO 14568 --- [H2database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T14:55:40.018+05:30  INFO 14568 --- [H2database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T14:55:40.373+05:30  INFO 14568 --- [H2database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T14:55:41.321+05:30  INFO 14568 --- [H2database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T14:55:41.349+05:30  INFO 14568 --- [H2database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T14:55:41.669+05:30  WARN 14568 --- [H2database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T14:55:42.074+05:30  INFO 14568 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-21T14:55:42.087+05:30  INFO 14568 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Started H2databaseApplication in 5.125 seconds (process running for 5.57)
+2024-11-21T14:55:42.090+05:30  INFO 14568 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Info level
+2024-11-21T14:55:42.091+05:30 ERROR 14568 --- [H2database] [main] c.e.H2database.H2databaseApplication     : error level
+2024-11-21T14:55:42.091+05:30  WARN 14568 --- [H2database] [main] c.e.H2database.H2databaseApplication     : warn level
+2024-11-21T14:58:52.543+05:30  WARN 14568 --- [H2database] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m42s728ms968µs800ns).
+2024-11-21T15:01:12.764+05:30  INFO 14568 --- [H2database] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T15:01:12.772+05:30  INFO 14568 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T15:01:12.777+05:30  INFO 14568 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T15:01:15.092+05:30  INFO 25608 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Starting H2databaseApplication using Java 17.0.12 with PID 25608 (D:\spring\H2database\target\classes started by anush in D:\spring\H2database)
+2024-11-21T15:01:15.096+05:30  INFO 25608 --- [H2database] [main] c.e.H2database.H2databaseApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T15:01:16.036+05:30  INFO 25608 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T15:01:16.108+05:30  INFO 25608 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-11-21T15:01:16.892+05:30  INFO 25608 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-21T15:01:16.913+05:30  INFO 25608 --- [H2database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T15:01:16.913+05:30  INFO 25608 --- [H2database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T15:01:17.001+05:30  INFO 25608 --- [H2database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T15:01:17.001+05:30  INFO 25608 --- [H2database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1838 ms
+2024-11-21T15:01:17.044+05:30  INFO 25608 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T15:01:17.303+05:30  INFO 25608 --- [H2database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T15:01:17.311+05:30  INFO 25608 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T15:01:17.324+05:30  INFO 25608 --- [H2database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T15:01:17.466+05:30  INFO 25608 --- [H2database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T15:01:17.542+05:30  INFO 25608 --- [H2database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T15:01:17.598+05:30  INFO 25608 --- [H2database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T15:01:17.885+05:30  INFO 25608 --- [H2database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T15:01:18.688+05:30  INFO 25608 --- [H2database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T15:01:18.716+05:30  INFO 25608 --- [H2database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T15:01:19.114+05:30  WARN 25608 --- [H2database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T15:01:19.566+05:30  INFO 25608 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-21T15:01:19.581+05:30  INFO 25608 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Started H2databaseApplication in 4.969 seconds (process running for 5.398)
+2024-11-21T15:01:19.583+05:30  INFO 25608 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Info level
+2024-11-21T15:01:19.583+05:30 ERROR 25608 --- [H2database] [main] c.e.H2database.H2databaseApplication     : error level
+2024-11-21T15:01:19.583+05:30  WARN 25608 --- [H2database] [main] c.e.H2database.H2databaseApplication     : warn level
+2024-11-21T15:01:35.359+05:30  INFO 25608 --- [H2database] [http-nio-8081-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T15:01:35.362+05:30  INFO 25608 --- [H2database] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T15:01:35.366+05:30  INFO 25608 --- [H2database] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-21T15:01:35.438+05:30  WARN 25608 --- [H2database] [http-nio-8081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T15:01:37.416+05:30  WARN 25608 --- [H2database] [http-nio-8081-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T15:01:45.812+05:30  WARN 25608 --- [H2database] [http-nio-8081-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T15:02:06.447+05:30  WARN 25608 --- [H2database] [http-nio-8081-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "add"]
+2024-11-21T15:04:58.357+05:30  INFO 25608 --- [H2database] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T15:04:58.360+05:30  INFO 25608 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T15:04:58.363+05:30  INFO 25608 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T15:05:02.219+05:30  INFO 20560 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Starting H2databaseApplication using Java 17.0.12 with PID 20560 (D:\spring\H2database\target\classes started by anush in D:\spring\H2database)
+2024-11-21T15:05:02.223+05:30  INFO 20560 --- [H2database] [main] c.e.H2database.H2databaseApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T15:05:03.189+05:30  INFO 20560 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T15:05:03.289+05:30  INFO 20560 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interface.
+2024-11-21T15:05:04.079+05:30  INFO 20560 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-21T15:05:04.102+05:30  INFO 20560 --- [H2database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T15:05:04.102+05:30  INFO 20560 --- [H2database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T15:05:04.192+05:30  INFO 20560 --- [H2database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T15:05:04.193+05:30  INFO 20560 --- [H2database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1904 ms
+2024-11-21T15:05:04.236+05:30  INFO 20560 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T15:05:04.520+05:30  INFO 20560 --- [H2database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T15:05:04.522+05:30  INFO 20560 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T15:05:04.538+05:30  INFO 20560 --- [H2database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T15:05:04.711+05:30  INFO 20560 --- [H2database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T15:05:04.809+05:30  INFO 20560 --- [H2database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T15:05:04.856+05:30  INFO 20560 --- [H2database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T15:05:05.199+05:30  INFO 20560 --- [H2database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T15:05:05.988+05:30  INFO 20560 --- [H2database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T15:05:06.014+05:30  INFO 20560 --- [H2database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T15:05:06.308+05:30  WARN 20560 --- [H2database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T15:05:06.683+05:30  INFO 20560 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-21T15:05:06.694+05:30  INFO 20560 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Started H2databaseApplication in 4.956 seconds (process running for 5.363)
+2024-11-21T15:05:06.698+05:30  INFO 20560 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Info level
+2024-11-21T15:05:06.698+05:30 ERROR 20560 --- [H2database] [main] c.e.H2database.H2databaseApplication     : error level
+2024-11-21T15:05:06.698+05:30  WARN 20560 --- [H2database] [main] c.e.H2database.H2databaseApplication     : warn level
+2024-11-21T15:05:12.486+05:30  INFO 20560 --- [H2database] [http-nio-8081-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T15:05:12.490+05:30  INFO 20560 --- [H2database] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T15:05:12.492+05:30  INFO 20560 --- [H2database] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-21T15:05:12.543+05:30  WARN 20560 --- [H2database] [http-nio-8081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T15:05:14.047+05:30  WARN 20560 --- [H2database] [http-nio-8081-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T15:05:16.487+05:30  WARN 20560 --- [H2database] [http-nio-8081-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T15:15:12.126+05:30  INFO 20560 --- [H2database] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T15:15:12.214+05:30  INFO 20560 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T15:15:12.226+05:30  INFO 20560 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T15:15:16.726+05:30  INFO 14392 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Starting H2databaseApplication using Java 17.0.12 with PID 14392 (D:\spring\H2database\target\classes started by anush in D:\spring\H2database)
+2024-11-21T15:15:16.729+05:30  INFO 14392 --- [H2database] [main] c.e.H2database.H2databaseApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T15:15:17.759+05:30  INFO 14392 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T15:15:17.847+05:30  INFO 14392 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2024-11-21T15:15:18.803+05:30  INFO 14392 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-21T15:15:18.818+05:30  INFO 14392 --- [H2database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T15:15:18.818+05:30  INFO 14392 --- [H2database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T15:15:18.897+05:30  INFO 14392 --- [H2database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T15:15:18.898+05:30  INFO 14392 --- [H2database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2108 ms
+2024-11-21T15:15:18.939+05:30  INFO 14392 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T15:15:19.196+05:30  INFO 14392 --- [H2database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T15:15:19.198+05:30  INFO 14392 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T15:15:19.210+05:30  INFO 14392 --- [H2database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T15:15:19.482+05:30  INFO 14392 --- [H2database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T15:15:19.554+05:30  INFO 14392 --- [H2database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T15:15:19.598+05:30  INFO 14392 --- [H2database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T15:15:19.930+05:30  INFO 14392 --- [H2database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T15:15:20.748+05:30  INFO 14392 --- [H2database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T15:15:20.775+05:30  INFO 14392 --- [H2database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T15:15:21.097+05:30  WARN 14392 --- [H2database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T15:15:21.594+05:30  INFO 14392 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-21T15:15:21.606+05:30  INFO 14392 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Started H2databaseApplication in 5.402 seconds (process running for 5.854)
+2024-11-21T15:15:21.611+05:30  INFO 14392 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Info level
+2024-11-21T15:15:21.611+05:30 ERROR 14392 --- [H2database] [main] c.e.H2database.H2databaseApplication     : error level
+2024-11-21T15:15:21.611+05:30  WARN 14392 --- [H2database] [main] c.e.H2database.H2databaseApplication     : warn level
+2024-11-21T15:15:31.553+05:30  INFO 14392 --- [H2database] [http-nio-8081-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T15:15:31.555+05:30  INFO 14392 --- [H2database] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T15:15:31.560+05:30  INFO 14392 --- [H2database] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-11-21T15:15:31.637+05:30  WARN 14392 --- [H2database] [http-nio-8081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T15:15:33.103+05:30  WARN 14392 --- [H2database] [http-nio-8081-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T15:15:34.830+05:30  WARN 14392 --- [H2database] [http-nio-8081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T15:15:54.116+05:30  WARN 14392 --- [H2database] [http-nio-8081-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "add"]
+2024-11-21T15:16:01.644+05:30  WARN 14392 --- [H2database] [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "add"]
+2024-11-21T15:16:08.417+05:30  WARN 14392 --- [H2database] [http-nio-8081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "add"]
+2024-11-21T15:26:04.131+05:30  INFO 14392 --- [H2database] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T15:26:04.135+05:30  INFO 14392 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T15:26:04.139+05:30  INFO 14392 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-21T15:26:08.201+05:30  INFO 23372 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Starting H2databaseApplication using Java 17.0.12 with PID 23372 (D:\spring\H2database\target\classes started by anush in D:\spring\H2database)
+2024-11-21T15:26:08.204+05:30  INFO 23372 --- [H2database] [main] c.e.H2database.H2databaseApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T15:26:09.143+05:30  INFO 23372 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-21T15:26:09.225+05:30  INFO 23372 --- [H2database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
+2024-11-21T15:26:10.032+05:30  INFO 23372 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-21T15:26:10.048+05:30  INFO 23372 --- [H2database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T15:26:10.048+05:30  INFO 23372 --- [H2database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T15:26:10.142+05:30  INFO 23372 --- [H2database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T15:26:10.143+05:30  INFO 23372 --- [H2database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1870 ms
+2024-11-21T15:26:10.184+05:30  INFO 23372 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-21T15:26:10.454+05:30  INFO 23372 --- [H2database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-21T15:26:10.456+05:30  INFO 23372 --- [H2database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-21T15:26:10.470+05:30  INFO 23372 --- [H2database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-21T15:26:10.654+05:30  INFO 23372 --- [H2database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-21T15:26:10.774+05:30  INFO 23372 --- [H2database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-21T15:26:10.827+05:30  INFO 23372 --- [H2database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-21T15:26:11.172+05:30  INFO 23372 --- [H2database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-21T15:26:11.965+05:30  INFO 23372 --- [H2database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-21T15:26:11.990+05:30  INFO 23372 --- [H2database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T15:26:12.269+05:30  WARN 23372 --- [H2database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-21T15:26:12.659+05:30  INFO 23372 --- [H2database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-21T15:26:12.676+05:30  INFO 23372 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Started H2databaseApplication in 4.954 seconds (process running for 5.37)
+2024-11-21T15:26:12.679+05:30  INFO 23372 --- [H2database] [main] c.e.H2database.H2databaseApplication     : Info level
+2024-11-21T15:26:12.681+05:30 ERROR 23372 --- [H2database] [main] c.e.H2database.H2databaseApplication     : error level
+2024-11-21T15:26:12.681+05:30  WARN 23372 --- [H2database] [main] c.e.H2database.H2databaseApplication     : warn level
+2024-11-21T15:26:21.799+05:30  INFO 23372 --- [H2database] [http-nio-8081-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T15:26:21.802+05:30  INFO 23372 --- [H2database] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T15:26:21.804+05:30  INFO 23372 --- [H2database] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-21T15:26:21.867+05:30  WARN 23372 --- [H2database] [http-nio-8081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T15:26:23.718+05:30  WARN 23372 --- [H2database] [http-nio-8081-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T15:26:25.385+05:30  WARN 23372 --- [H2database] [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "favicon.ico"]
+2024-11-21T15:30:36.053+05:30  INFO 23372 --- [H2database] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-21T15:30:36.056+05:30  INFO 23372 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-21T15:30:36.058+05:30  INFO 23372 --- [H2database] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
